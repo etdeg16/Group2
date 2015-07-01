@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>MyNewFMSythesizer.xcscheme</key>
+		<key>MyFMSynthesizer.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>975121BB1B446BFD006B2C52</key>
+		<key>978601DC1B446C71003C5360</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>975121DF1B446BFE006B2C52</key>
+		<key>978601EE1B446C71003C5360</key>
 		<dict>
 			<key>primary</key>
 			<true/>
