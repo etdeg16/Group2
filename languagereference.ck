@@ -96,3 +96,10 @@ for (0 => int i; i < myArray.size(); i++)
 	0.5 => playMelody.gain;
 	0.25::second => now;
 }
+SndBuf wavetable => dac;
+
+me.dir() => string path;
+<<< "This is my path:", path >>>;
+"audio/sine.aiff" => string filename;
+path+filename => filename;
+<<<filename>>>;
