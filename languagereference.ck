@@ -88,18 +88,29 @@ fun string hola(string personName){
 return <<<"Hello", personName,"!!!">>>;
 }
 hola("Ebae");
-SinOsc playMelody => dac;
+/*SinOsc playMelody => dac;
 [60, 60, 67, 67, 69, 69, 67, 67] @=> int myArray[];
 for (0 => int i; i < myArray.size(); i++)
 {
 	Std.mtof(myArray[i]) => playMelody.freq;
 	0.5 => playMelody.gain;
 	0.25::second => now;
-}
-SndBuf wavetable => dac;
+} */
+/*SndBuf wavetable => dac;
 
 me.dir() => string path;
 <<< "This is my path:", path >>>;
 "audio/sine.aiff" => string filename;
 path+filename => filename;
 <<<filename>>>;
+
+filename => wavetable.read;
+0.5 => wavetable.gain;
+0 => wavetable.pos;
+1 => wavetable.rate;
+1::second => now; */
+
+Clarinet woodwind => dac;
+220 => woodwind.freq;
+woodwind.noteOn(343);
+1::second => now;
